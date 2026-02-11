@@ -13,8 +13,8 @@ title                    : "Kevin Vo"
 title_separator          : "-"
 name                     : &name "Kevin Vo"
 description              : &description "Mathematics-Computer Science student focused on robotics, machine learning, and autonomous systems"
-url                      : https://ev3kevindev.github.io # the base hostname & protocol for your site
-baseurl                  : "/KevinVoPortfolio" # the subpath of your site, e.g. "/blog"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "EV3KevinDEV/KevinVoPortfolio"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
