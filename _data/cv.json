@@ -1,152 +1,120 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Kevin Vo",
+    "email": "kev001@ucsd.edu",
+    "phone": "714-657-8835",
+    "website": "",
+    "summary": "Mathematics–Computer Science student at UC San Diego focused on robotics, machine learning, and autonomous systems.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "La Jolla",
       "countryCode": "US",
-      "region": ""
+      "region": "CA"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "kevin-vo-84a110184",
+        "url": "https://linkedin.com/in/kevin-vo-84a110184"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "EV3KevinDEV",
+        "url": "https://github.com/EV3KevinDEV"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "name": "University of California, San Diego",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2025-05",
+      "endDate": "Present",
+      "summary": "Integrated and validated autonomous drone perception and navigation systems.",
+      "highlights": [
+        "Integrated an autonomous drone software stack on a Jetson Orin Nano using ROS 2, connecting the flight controller with onboard perception (detection + segmentation), survey mission planning, and real-time telemetry/logging.",
+        "Tested perception and navigation pipelines in Gazebo simulation to validate behavior before flight and reduce hardware debugging time."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "name": "FIRST Robotics Team 2710 Jetstream",
+      "position": "Programming Lead",
+      "startDate": "2024-01",
+      "endDate": "2024-06",
+      "summary": "Led robotics software development for competition performance and reliability.",
+      "highlights": [
+        "Developed drivetrain, autonomous, and mechanism control software for competitive play.",
+        "Led development of the Java-based robot software stack and introduced simulation for pre-hardware testing and faster iteration.",
+        "Built simulation + hardware-in-the-loop validation pipelines, accelerating bring-up and improving software reliability.",
+        "Implemented FOC on drivetrain motors, increasing torque by 34% and power by 25%, improving overall drivetrain responsiveness and performance.",
+        "Engineered autonomous and teleop control integrating trajectory planning and vision-based odometry fusion, contributing to a 3rd-place regional finish."
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "University of California, San Diego",
+      "area": "Mathematics–Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2024-09",
+      "endDate": "2027-06",
+      "gpa": "3.6",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Machine Learning",
+        "Optimization",
+        "Modern Algebra",
+        "Probability and Statistics",
+        "Systems Programming"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["C", "C++", "Python", "Java", "JavaScript", "MATLAB", "LaTeX", "Markdown"]
+    },
+    {
+      "name": "Robotics",
+      "keywords": ["ROS 2", "Isaac Sim", "Isaac Lab", "Gymnasium (RL)", "Computer Vision (OpenCV)", "Control Theory", "Signal Processing"]
+    },
+    {
+      "name": "Libraries",
+      "keywords": ["NumPy", "Pandas", "Matplotlib", "TensorFlow", "PyTorch", "scikit-learn"]
+    },
+    {
+      "name": "Tools & Platforms",
+      "keywords": ["Git", "GitHub", "Docker", "VS Code", "Jupyter", "Google Colab", "Kaggle"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Reinforcement Learning Robotics Project",
+      "category": "project",
+      "date": "2025-06",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Built a physics-accurate Isaac Lab reinforcement learning environment inspired by competitive robotics tasks, modeling structured game field, swerve-based robot dynamics, and mechanism constraints in Isaac Sim. Defined state/action spaces and reward functions for drivetrain and mechanism control in a realistic physics-based simulation."
+    },
+    {
+      "name": "CivicGrid",
+      "category": "project",
+      "date": "2025-10",
+      "url": "",
+      "description": "Led a 3-person team building a voice-to-work-order system where users speak to an AI voice agent that generates structured reports with priority scores and routes them for contractor assignment. Built an ML pipeline that used Claude to convert conversational audio transcripts from a voice agent into structured YAML work orders with consistent fields, then stored them in a database."
+    },
+    {
+      "name": "AI Robotics Service Dog",
+      "category": "project",
+      "date": "2023-05",
+      "url": "",
+      "description": "Led a 3-person team developing a low-cost AI robotic service dog for visually impaired users, training a YOLOv7 model on 6,000+ labeled images for obstacle detection and hazard alerts. Awarded Intel Global AI for Accessibility and Country/Region awards."
     }
   ]
 }
