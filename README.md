@@ -54,6 +54,20 @@ When you are initially working on your website, it is very useful to be able to 
 
 If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
+
+## Deployment
+
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml` that builds and deploys the Jekyll site to GitHub Pages whenever changes are pushed to `main`, `master`, or `work`.
+
+To enable deployment:
+
+1. In GitHub, go to **Settings → Pages**.
+2. Set **Source** to **GitHub Actions**.
+3. Push to one of the configured branches.
+
+The live site URL for this repository configuration is expected to be:
+`https://ev3kevindev.github.io/KevinVoPortfolio/`
+
 ## Using Docker
 
 Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
